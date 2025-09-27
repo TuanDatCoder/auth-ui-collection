@@ -11,8 +11,8 @@ Here’s a showcase of all the available designs. Click on **Live Demo** to see 
 
 | Preview | UI Name | Tech Stack | Live Demo |
 | :---: | :--- | :---: | :---: |
-| ![Classic Login Form](./01-classic-login-form/screenshot.png) | **01. Classic Login Form** <br/> A clean and minimal login page. | `HTML` `CSS` | [Live Demo](https://your-username.github.io/auth-ui-collection/01-classic-login-form/) |
-| ![Dark Mode Auth](./04-dark-mode-auth/screenshot.png) | **02. Dark Mode Auth** <br/> A sleek authentication set (Login, Register, Forgot, Home) with dark theme support. | `HTML` `CSS` `JS` | [Live Demo](https://your-username.github.io/auth-ui-collection/04-dark-mode-auth/) |
+| ![Classic Auth](./01-classic-auth/screenshot.png) | **01. Classic Login Form** <br/> A clean and minimal login page. | `HTML` `CSS` | [Live Demo](https://tuandatcoder.github.io/auth-ui-collection/01-classic-auth/) |
+| ![Dark Mode Auth](./02-dark-mode-auth/screenshot.png) | **02. Dark Mode Auth** <br/> A sleek authentication set (Login, Register, Forgot, Home) with dark theme support. | `HTML` `CSS` `JS` | [Live Demo](https://tuandatcoder.github.io/auth-ui-collection/02-dark-mode-auth/) |
 
 ---
 
