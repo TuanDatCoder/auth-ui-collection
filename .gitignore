@@ -1,0 +1,13 @@
+# Bỏ qua các file hệ thống của macOS và Windows
+.DS_Store
+Thumbs.db
+
+# Bỏ qua các thư mục cấu hình của các code editor
+.vscode/
+.idea/
+
+# Bỏ qua thư mục chứa các thư viện node_modules (nếu sau này có dùng)
+node_modules/
+
+# Bỏ qua các file log
+*.log

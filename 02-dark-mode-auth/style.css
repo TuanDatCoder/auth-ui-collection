@@ -1,0 +1,135 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(circle at top left, #1a1a1a, #121212);
+  color: #e0e0e0;
+  overflow: hidden;
+}
+
+/* Container chung */
+.auth-container {
+  width: 100%;
+  max-width: 380px;
+  padding: 30px;
+  background: rgba(30, 30, 30, 0.85); /* Glass effect */
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  animation: fadeIn 0.6s ease;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.auth-container h1,
+.auth-container h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: #a0a0a0;
+  font-size: 14px;
+}
+
+/* Input */
+.auth-container input {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #333;
+  font-size: 14px;
+  background: #2a2a2a;
+  color: #e0e0e0;
+  transition: 0.3s;
+}
+
+.auth-container input:focus {
+  border-color: #6a11cb;
+  outline: none;
+  box-shadow: 0 0 8px rgba(106, 17, 203, 0.6);
+}
+
+/* Button */
+.auth-container button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 14px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s, box-shadow 0.3s;
+}
+
+.auth-container button:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  box-shadow: 0 6px 18px rgba(37, 117, 252, 0.4);
+}
+
+/* Links */
+.links {
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+.links a {
+  color: #57a5ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #9b6dff;
+}
+
+/* Menu riêng cho index.html */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.menu li {
+  margin: 14px 0;
+}
+
+.menu a {
+  display: block;
+  padding: 14px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s, background 0.3s, box-shadow 0.3s;
+}
+
+.menu a:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  box-shadow: 0 6px 18px rgba(106, 17, 203, 0.4);
+}
+
+/* Hiệu ứng */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
