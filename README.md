@@ -1,36 +1,36 @@
 # 🔥 Auth UI Showcase Collection
 
-Một bộ sưu tập các giao diện người dùng (UI) cho các chức năng xác thực như Đăng nhập, Đăng ký và Quên mật khẩu. Dự án này được tạo ra với mục đích luyện tập kỹ năng HTML, CSS và JavaScript.
-
-
+A collection of modern **Authentication User Interfaces (UI)** including **Login, Register, and Forgot Password** pages.  
+This project was created to **practice HTML, CSS, and JavaScript** skills while exploring different UI/UX styles.  
 
 ---
 
 ## ✨ Gallery
 
-Dưới đây là danh sách các giao diện trong bộ sưu tập. Click vào "Live Demo" để xem sản phẩm trực tiếp!
+Here’s a showcase of all the available designs. Click on **Live Demo** to see them in action!
 
-| Preview | Tên Giao Diện | Công nghệ | Live Demo |
+| Preview | UI Name | Tech Stack | Live Demo |
 | :---: | :--- | :---: | :---: |
-| ![Classic Login Form](./01-classic-login-form/screenshot.png) | **01. Classic Login Form** <br/> Giao diện đăng nhập cơ bản và sạch sẽ. | `HTML` `CSS` | [Xem Live](https://your-username.github.io/auth-ui-collection/01-classic-login-form/) |
-| ![Social Media Signup](./02-social-media-signup/screenshot.png) | **02. Social Media Signup** <br/> Form đăng ký tích hợp nút đăng nhập mạng xã hội. | `HTML` `CSS` `JS` | [Xem Live](https://your-username.github.io/auth-ui-collection/02-social-media-signup/) |
-| ![Animated Gradient Login](./03-animated-gradient-login/screenshot.png) | **03. Animated Gradient Login** <br/> Form đăng nhập với hiệu ứng gradient chuyển động. | `HTML` `CSS` | [Xem Live](https://your-username.github.io/auth-ui-collection/03-animated-gradient-login/) |
-| | | | |
+| ![Classic Login Form](./01-classic-login-form/screenshot.png) | **01. Classic Login Form** <br/> A clean and minimal login page. | `HTML` `CSS` | [Live Demo](https://your-username.github.io/auth-ui-collection/01-classic-login-form/) |
+| ![Dark Mode Auth](./04-dark-mode-auth/screenshot.png) | **02. Dark Mode Auth** <br/> A sleek authentication set (Login, Register, Forgot, Home) with dark theme support. | `HTML` `CSS` `JS` | [Live Demo](https://your-username.github.io/auth-ui-collection/04-dark-mode-auth/) |
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## 🛠️ Tech Stack
 
-* **HTML5**
-* **CSS3** (Flexbox, Grid, Animations)
-* **JavaScript** (DOM Manipulation)
+- **HTML5**
+- **CSS3** (Flexbox, Grid, Animations)
+- **JavaScript** (DOM Manipulation, Validation)
 
 ---
 
-## 🚀 Cách sử dụng
+## 🚀 How to Use
 
-1.  Clone repository này về máy của bạn.
-2.  Mở thư mục của giao diện bạn muốn xem.
-3.  Mở file `index.html` bằng trình duyệt.
+1. Clone this repository to your local machine.
+2. Open the folder of the UI design you want to test.
+3. Launch the `index.html` file in your browser.
+4. Customize and experiment as you like!
 
-Cảm ơn bạn đã ghé thăm!
+---
+
+💡 *Thanks for visiting! Feel free to fork, star ⭐, and share this collection with others.*
