@@ -11,8 +11,9 @@ Here’s a showcase of all the available designs. Click on **Live Demo** to see 
 
 | Preview | UI Name | Tech Stack | Live Demo |
 | :---: | :--- | :---: | :---: |
-| ![Classic Auth](./01-classic-auth/screenshot.png) | **01. Classic Login Form** <br/> A clean and minimal login page. | `HTML` `CSS` | [Live Demo](https://tuandatcoder.github.io/auth-ui-collection/01-classic-auth/) |
+| ![Classic Auth](./01-classic-auth/screenshot.png) | **01. Classic Auth/> A clean and minimal login page. | `HTML` `CSS` | [Live Demo](https://tuandatcoder.github.io/auth-ui-collection/01-classic-auth/) |
 | ![Dark Mode Auth](./02-dark-mode-auth/screenshot.png) | **02. Dark Mode Auth** <br/> A sleek authentication set (Login, Register, Forgot, Home) with dark theme support. | `HTML` `CSS` `JS` | [Live Demo](https://tuandatcoder.github.io/auth-ui-collection/02-dark-mode-auth/) |
+| ![Flip Card Auth](./03-flip-card-auth/screenshot.png) | **03. Flip Card Auth** <br/> A creative flip card authentication with a sliding toggle for Login/Register. | `HTML` `CSS` `JS` | [Live Demo](https://tuandatcoder.github.io/auth-ui-collection/03-flip-card-auth/) |
 
 ---
 
