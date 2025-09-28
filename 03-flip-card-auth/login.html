@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login / Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <label class="switch theme-toggle">
+    <input class="toggle" type="checkbox" id="themeToggle">
+    <span class="slider"></span>
+  </label>
+  <div class="wrapper">
+    <div class="card-switch">
+      <div class="switch-header">
+        <label for="flipToggle" class="flip-switch">
+          <input class="toggle" type="checkbox" id="flipToggle">
+          <span class="slider"></span>
+          <span class="card-side"></span>
+        </label>
+      </div>
+      <div class="flip-card__inner">
+        <div class="flip-card__front">
+          <div class="title">Log in</div>
+          <form id="loginForm" class="flip-card__form">
+            <input type="email" placeholder="Email" required class="flip-card__input">
+            <input type="password" placeholder="Password" required class="flip-card__input">
+            <button type="submit" class="flip-card__btn">Let's go!</button>
+            <p class="links"><a href="forgot.html">Forgot Password?</a></p>
+          </form>
+        </div>
+        <div class="flip-card__back">
+          <div class="title">Sign up</div>
+          <form id="registerForm" class="flip-card__form">
+            <input type="text" placeholder="Full Name" required class="flip-card__input">
+            <input type="email" placeholder="Email" required class="flip-card__input">
+            <input type="password" id="password" placeholder="Password" required class="flip-card__input">
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required
+              class="flip-card__input">
+            <button type="submit" class="flip-card__btn">Confirm!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
